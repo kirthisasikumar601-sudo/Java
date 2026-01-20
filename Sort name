@@ -1,0 +1,10 @@
+import java.util.*;
+class SortNames{
+ public static void main(String[] args){
+  String[] names={"Ravi","Anu","Kiran","Meena"};
+  Arrays.sort(names);
+  System.out.println("Sorted Names:");
+  for(String n:names)
+   System.out.println(n);
+ }
+}
