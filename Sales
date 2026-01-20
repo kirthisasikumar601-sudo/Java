@@ -1,0 +1,11 @@
+class AddSales{
+ public static void main(String[] args){
+  int[] b1={1200,1500,1800};
+  int[] b2={1000,1300,1700};
+  int[] total=new int[3];
+  for(int i=0;i<3;i++)
+   total[i]=b1[i]+b2[i];
+  for(int t:total)
+   System.out.println(t);
+ }
+}
